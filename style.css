@@ -39,11 +39,7 @@ body {
   border-radius: var(--50);
 }
 
-.title > a {
-  text-decoration: none;
-}
-
-.title > a:hover {
+.title > h1:hover {
   color: var(--main-bg);
 }
 
