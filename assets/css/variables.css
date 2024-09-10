@@ -1,0 +1,83 @@
+:root {
+  /* Base color */
+  --color-yellow: #f4d04e;
+  --color-gray-950: #111111;
+  --color-gray-500: #6b6b6b;
+  --color-white: #ffffff;
+
+  /* color-token */
+  --main-bg: var(--color-yellow);
+  --card-bg: var(--color-white);
+  --card-border: var(--color-gray-950);
+  --button-bg: var(--main-bg);
+  --text-color-primary: var(--color-gray-950);
+  --text-color-secondary: var(--color-gray-500);
+
+  /* base spacing */
+  --50: 4px;
+  --100: 8px;
+  --150: 12px;
+  --200: 24px;
+
+  /* Dropshadow */
+  --shadow-100: var(--100);
+  --shadow-150: var(--150); /* for shadow on hover */
+
+  /* base font size */
+  --size-small: 14px;
+  --size-base: 16px;
+  --size-large: 24px;
+
+  /* font base */
+  --font-family: "Figtree", sans-serif;
+  --line-height-150: 150%;
+  --font-weight-medium: 500;
+  --font-weight-xbold: 800;
+
+  /* Tokens */
+  --text-preset-1: var(--font-weight-xbold) var(--size-large)/var(--line-height-150) var(--font-family);
+  --text-preset-2: var(--font-weight-medium) var(--size-base)/var(--line-height-150) var(--font-family);
+  --text-preset-3: var(--font-weight-medium) var(--size-small)/var(--line-height-150) var(--font-family);
+  --text-preset-3-bold: var(--font-weight-xbold) var(--size-small)/var(--line-height-150) var(--font-family);
+}
+
+/* Classes */
+.mb-150 {
+  margin-bottom: var(--150);
+}
+
+.mb-200 {
+  margin-bottom: var(--200);
+}
+
+.p-200 {
+  padding: var(--200);
+}
+
+.text-preset-1 {
+  font: var(--text-preset-1);
+}
+
+.text-preset-2 {
+  font: var(--text-preset-2);
+}
+
+.text-preset-3 {
+  font: var(--text-preset-3) 
+}
+
+.text-preset-3-bold {
+  font: var(--text-preset-3-bold);
+}
+
+.text-main {
+  color: var(--text-color-primary);
+}
+
+.text-secondary {
+  color: var(--text-color-secondary);
+}
+
+.flex {
+  display: flex;
+}

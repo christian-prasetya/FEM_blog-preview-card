@@ -8,6 +8,14 @@
   
   <title>Frontend Mentor | Blog preview card</title>
 
+  <!-- Google Font Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS Link -->
+  <link rel="stylesheet" href="style.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,20 +23,36 @@
   </style>
 </head>
 <body>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main class="card p-200">
+    <div class="card-image mb-200">
+      <img src="./assets/images/illustration-article.svg" alt="Article Illustration Image">
+    </div>
+    <div class="card-content mb-200">
+      <div class="subtitle mb-150">
+        <p class="text-main text-preset-3-bold">Learning</p>
+      </div>
+      <div class="published-date mb-150">
+        <p class="text-main text-preset-3">Published 21 Dec 2023</p>
+      </div>
+      <div class="title mb-150">
+        <a href="#" class="text-main text-preset-1">HTML & CSS foundations</a>
+      </div>
+      <div class="description">
+        <p class="text-preset-2 text-secondary">
+          These languages are the backbone of every website, defining structure, content, and presentation.
+        </p>
+      </div>
+    </div>
+    <div class="card-author flex">
+      <div class="author-img">
+        <img src="./assets/images/image-avatar.webp" alt="Authors Image">
+      </div>
+      <div class="author-name">
+        <p class="text-preset-3-bold text-main">
+          Greg Hooper
+        </p>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
